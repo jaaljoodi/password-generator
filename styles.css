@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap');
+
+body {
+  background-color: #1F2937;
+  font-family: 'Karla', sans-serif;
+  color: #FFF;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.container {
+  width: 1000px;
+  min-width: 900px;
+}
+
+.first-card {
+  width: 60%;
+  margin: 100px auto 15px;
+  text-align: left;
+}
+
+h1 {
+  font-weight: bold;
+  line-height: 54px;
+}
+
+span {
+  color: #4ADF86;
+}
+
+#generate-btn {
+  background-color: #10B981;
+  color: #FFF;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 14px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#generate-btn:hover {
+  background-color: #2d6f59;
+  transition: 0.2s;
+}
+
+p {
+  margin: -20px auto 35px;
+  color: #D5D4D8;
+}
+
+
+hr {
+  width: 60%;
+  color: #273549;
+  border: 0.1px solid #273549;
+}
+
+.div-btns {
+  width: 60%;
+  justify-content: center;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#show-passOne,
+#show-passTwo {
+  background-color: #273549;
+  color: #55F991;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 90px;
+  margin: 10px;
+  width: 1200px;
+  height: 50px;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+footer {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+
+a {
+  color: #2d6f59;
+}
+
+a:hover {
+  color: aquamarine;
+  transition: 0.2s;
+}
