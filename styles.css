@@ -13,6 +13,7 @@ body {
 .container {
   width: 1000px;
   min-width: 900px;
+  margin: 10px auto;
 }
 
 .first-card {
